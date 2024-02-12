@@ -58,4 +58,16 @@ git branch
 ~~~shell
 git branch -d dev
 ~~~  
+## 创建标签  
+~~~shell
+git tag -a v1.0 -m "first vision"
+~~~  
+## 查看标签  
+~~~shell
+git tag
+~~~  
+## 推送标签  
+~~~shell
+git push origin v1.0
+~~~  
 
