@@ -21,3 +21,17 @@ git log --pretty=oneline # 简介输出
 ~~~shell
 git reset --hard HEAD^ # head^可替换成对应版本号，退回到相应制定版本
 ~~~  
+## 关联远程仓库  
+~~~shell
+git remote add origin git@server-name:path/repo-name.git
+~~~  
+
+## 远程仓库提交  
+~~~shell
+git push origin master
+~~~  
+## 远程仓库克隆到本地  
+~~~shell
+git clone git@github.com:lunqiqi/gitskills.git #替换具体仓库的ssh地址
+~~~  
+
