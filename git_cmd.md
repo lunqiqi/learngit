@@ -34,4 +34,28 @@ git push origin master
 ~~~shell
 git clone git@github.com:lunqiqi/gitskills.git #替换具体仓库的ssh地址
 ~~~  
+## 创建新分支  
+~~~shell
+git checkout -b dev
+#新版本
+git switch -c dev
+~~~  
+## 切换分支
+~~~shell
+git checkout master
+#新版本
+git switch master
+~~~  
+## 合并分支  
+~~~shell
+git merge dev
+~~~  
+## 查看分支状态  
+~~~shell
+git branch
+~~~  
+## 删除分支  
+~~~shell
+git branch -d dev
+~~~  
 
